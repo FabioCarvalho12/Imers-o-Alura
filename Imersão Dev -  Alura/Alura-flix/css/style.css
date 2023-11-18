@@ -1,0 +1,61 @@
+body { 
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif; 
+  text-align: center; 
+  background-color: #141414; 
+}
+
+.container { 
+  text-align: center; 
+  padding: 20px; 
+}
+
+.page-title { 
+  color: #e50914; 
+  margin: 0 0 5px; 
+  font-size: 3em; 
+}
+
+.page-subtitle { 
+  color: #ffffff; 
+  margin-top: 5px; 
+  font-size: 1.5em; 
+}
+
+.page-logo { 
+  width: 200px; 
+}
+
+.alura-logo { 
+  width: 40px; 
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+}
+
+.filme-container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  padding: 20px; 
+}
+
+.filme-card { 
+  width: 250px; 
+  margin: 10px; 
+  text-align: center; 
+  background-color: #141414; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); 
+}
+
+.filme-img { 
+  max-width: 100%; 
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px; 
+}
+
+.filme-nome { 
+  padding: 10px; 
+  font-weight: bold; 
+  color: #ffffff; 
+}
